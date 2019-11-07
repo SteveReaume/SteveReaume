@@ -2,30 +2,19 @@ body{
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flexflow: row wrap;
-  justify-content: space-between; 
-  background-color: black;
-  min-height:150px;
+.nav{
+  min height: 400px;
+  text-align: center;
+  padding: 150px;
+  font-size: 1.5em;
 }
-
 nav > ul {
   list-style-type: none;
   display: inline;
-  margin: 10px;
-  line-height: 50px;
-  
 }
 
 nav > ul > li {
   display: inline;
-  margin: 5px;
+  margin: 40px;
   color: white;
-}
-
-.logo {
-width: 150px;
-align-self: center;
-padding:10px;
 }
