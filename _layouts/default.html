@@ -1,18 +1,30 @@
+<!-- 
+    This is a standard html document.
+    It contains all the html we need to create a page.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css" type="text/css">
-    <title> {{ site.title }} | {{ page.title }} </title>
+    <!-- Below we are using liquid to pull out the path to the root of the site. 
+        This variable is stating that, it is looking for the url property that is 
+        in the site config file.
+    -->
+    <link href="{{ site.url }}/assets/css/styles.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
 </head>
 <body>
-    
-  {% include nav.html %}  
+    <!-- 
+        Below we are using a liquid templating engine tag to place content into the page
+        and extend it. we can also create includes to this page, and bring them into the template.
+        includes are housed in the includes folder. They can be given any name you like. 
+        You can call them into any page you want, as long as you are using the below format.
+    -->
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
 
-  {{content}}
-
-  {% include footer.html %}
 </body>
 </html>
