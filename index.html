@@ -3,10 +3,6 @@ layout: default
 title: home page
 ---
 
-<ul>
-        {% for cat in site.categories %}
-        <li>
-                {% assign cat_name = cat[0] %}
                 <div class="Projects">
                         <h1>{{ cat_name }}</h1>
                         <ul>
@@ -19,6 +15,4 @@ title: home page
                                 {% endfor %}
                         </ul>
                 </div>
-        </li>
-        {% endfor %}
-</ul>
+
