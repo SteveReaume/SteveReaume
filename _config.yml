@@ -1,7 +1,7 @@
 title: Steve Reaume
 email: stevereaume7@gmail.com
-baseurl: "https://stevereaume.github.io/"
-url: "/SteveReaume"
+baseurl: "/SteveReaume"
+url: "https://stevereaume.github.io/"
 
 sass:
   style: compact
