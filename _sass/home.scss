@@ -18,14 +18,18 @@
   .type:hover {
     background-color: grey;
    font-size: 1.15em;
-   cursor: hand;
-   cursor: pointer;
   } 
+
   .type > h1 {
    color: white;
    padding-top:110px;
    font-size: 4.5em;
    text-decoration: none;
+  }
+ 
+  .type > h1:hover{
+  cursor: hand;
+  cursor: pointer;
   }
 
 
