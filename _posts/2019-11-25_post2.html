@@ -5,12 +5,15 @@ date: 2019-11-11
 categories: Illustration
 tags: class demo
 img: HorseInsta-2.png
-desc: this is a DIFFERENT demo page
+desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie dolor in pulvinar egestas. Duis ac tempus sapien. Donec auctor, leo ac fermentum accumsan, odio arcu posuere orci, id dapibus ante velit in tellus. Duis tristique augue nec lorem auctor mattis. Donec eget tempus dui. Curabitur non vehicula erat, non efficitur velit."
 ---
-{% if page.img %}
-  <img class="caption__media" src="{{site.baseurl}}/_illustrations/{{page.img}}
-  " width="400">
-{% endif %}
-<p>
-{{page.desc}}
-</p>
+
+<div class="portfolio-item">
+  {% if page.img %}
+    <img class="caption__media" src="{{site.baseurl}}/_illustrations/{{page.img}}" width="300">
+  {% endif %}
+
+  <p class="copy">
+    {{page.desc}}
+  </p>
+</div>
