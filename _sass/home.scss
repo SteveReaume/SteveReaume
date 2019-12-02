@@ -16,9 +16,12 @@
   
 .divLink {
 text-decoration: none;
-color: white;
-padding-top:110px;
-font-size: 4.5em;
+}
+
+.divLink > h1 {
+  color: white;
+  padding-top:110px;
+  font-size: 4.5em;
 }
 
   .type:hover {
