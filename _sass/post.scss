@@ -1,0 +1,32 @@
+.portfolio-head{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 75px;
+  }
+
+.portfolio-item{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+  }
+
+.portfolio-head > ul {
+    padding-inline-start: 0;
+}
+
+.portfolio-head > ul > li {
+    list-style-type: none;
+}
+
+.caption-media{
+    display: inline-block;
+    padding: 15px;
+}
+
+.copy{
+    max-width: 300px;
+    display: inline-block;
+    padding: 15px;
+}
