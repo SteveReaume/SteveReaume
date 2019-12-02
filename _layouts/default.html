@@ -23,6 +23,9 @@
         You can call them into any page you want, as long as you are using the below format.
     -->
     {% include nav.html %}
+    {% if page.title == "home page" %}
+        {% include home.html %}
+    {% endif %}
     {{ content }}
     {% include footer.html %}
 
