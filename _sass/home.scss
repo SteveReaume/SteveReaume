@@ -12,11 +12,13 @@
     -moz-background-size: cover;
     background-size: cover;
     margin-top: 70px;
-    text-decoration: none;
   }
   
 .divLink {
 text-decoration: none;
+color: white;
+padding-top:110px;
+font-size: 4.5em;
 }
 
   .type:hover {
@@ -24,11 +26,11 @@ text-decoration: none;
    font-size: 1.15em;
   } 
 
-  .type > h1 {
-   color: white;
-   padding-top:110px;
-   font-size: 4.5em;
-  }
+  // .type > h1 {
+  //  color: white;
+  //  padding-top:110px;
+  //  font-size: 4.5em;
+  // }
  
   .type > h1:hover{
   cursor: hand;
