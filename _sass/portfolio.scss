@@ -7,11 +7,20 @@
     min-height: 300px;
     background-color: white;
   }
+  .portfolio-head{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 75px;
+  }
 
-.item-header{
-  margin: 0 auto;
-  list-style-type: none;
-}
+  .Projects > ul{
+    list-style-type: none;
+  }
+// .item-header{
+//   margin: 0 auto;
+//   list-style-type: none;
+// }
   .portfolio-item{
     position: relative;
     width: 700px;
