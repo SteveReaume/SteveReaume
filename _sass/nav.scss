@@ -21,10 +21,11 @@
   }
 
 
-  #dsk-list {
+  ul#dsk-list, li {
     list-style-type: none;
     margin: 40px;
     color: white;
+    display: inline;
   }
 
   #dsk-list > li {
