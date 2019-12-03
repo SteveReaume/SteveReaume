@@ -1,9 +1,9 @@
-// .portfolio-head{
-//     position: relative;
-//     width: 650px;
-//     margin: 0 auto;
-//     padding-top: 75px;
-//   }
+.portfolio-head{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 75px;
+  }
 
 .portfolio-item{
     position: relative;
@@ -15,8 +15,7 @@
 .portfolio-head > ul {
     padding-inline-start: 0;
 }
-
-.portfolio-head > ul > li {
+.Projects > ul {
     list-style-type: none;
 }
 
