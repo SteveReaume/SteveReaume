@@ -12,9 +12,9 @@ layout: default
                             <!-- <h1>{{ cat_name }}</h1> -->
                             <ul>
                                     {% for post in site.categories[cat_name] %}
-                                    <li class="item-header">
+                                    <li>
                                             <!-- <span class="date">{{ post.date | date: '%Y %b %d' }}</span> -  -->
-                                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                                            <a class="item-header" href="{{ post.url | relative_url }}">{{ post.title }}</a>
                                             <p>{{ post.content |truncatehtml | truncatewords: 60 }}</p>
                                     </li>
                                     {% endfor %}
