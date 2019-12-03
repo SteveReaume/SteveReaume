@@ -8,13 +8,12 @@
     background-color: white;
   }
 
-  .portfolio-head{
-    position: relative;
-    width: 650px;
-    margin: 0 auto;
-    padding-top: 75px;
+  .Projects > h1, span {
+    text-align: center;
   }
-
+.Projects > li {
+  list-style-type: none;
+}
   .portfolio-item{
     position: relative;
     width: 700px;
